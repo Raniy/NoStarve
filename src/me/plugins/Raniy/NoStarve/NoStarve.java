@@ -32,8 +32,8 @@ public class NoStarve extends JavaPlugin {
     	// Get PluginManager
     	PluginManager pm=this.getServer().getPluginManager();
     	
-    	// Register the events we want to track. At this time thats Food level change.
-    	pm.registerEvent(Event.Type.FOOD_LEVEL_CHANGE, NSListener, Priority.Normal, this);
+    	// Register the events we want to track.
+    	pm.registerEvent(Event.Type.ENTITY_DAMAGE, NSListener, Priority.Normal, this);
     	
     	// Tell the console we activated.
     	log.info("NoStarve activated. Lucky people... ");
