@@ -1,0 +1,8 @@
+name: NoStarve
+author: Raniy
+database: true
+description: "Prevents starvation from privleged players.."
+main: me.plugins.Raniy.NoStarve.NoStarve
+startup: postworld
+url:
+version: v1.0
